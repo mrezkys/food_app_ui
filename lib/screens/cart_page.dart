@@ -24,7 +24,7 @@ class _CartPageState extends State<CartPage> {
                 Container(
                   margin: EdgeInsets.only(top: 16),
                   padding: EdgeInsets.symmetric(horizontal: 18, vertical: 12),
-                  height: 96,
+                  height: 106,
                   width: double.infinity,
                   decoration: BoxDecoration(
                     color: Theme.of(context).accentColor,
@@ -33,10 +33,10 @@ class _CartPageState extends State<CartPage> {
                   child: Row(
                     children: <Widget>[
                       Flexible(
-                        flex: 3,
+                        flex: 4,
                         child: Container(
-                          height: 72,
-                          width: 72,
+                          height: 82,
+                          width: 82,
                           decoration: BoxDecoration(borderRadius: BorderRadius.circular(8), color: Colors.grey, image: DecorationImage(fit: BoxFit.cover, image: AssetImage('assets/images/1.jpg'))),
                         ),
                       ),
@@ -120,7 +120,7 @@ class _CartPageState extends State<CartPage> {
                 Container(
                   margin: EdgeInsets.only(top: 16),
                   padding: EdgeInsets.symmetric(horizontal: 18, vertical: 12),
-                  height: 96,
+                  height: 106,
                   width: double.infinity,
                   decoration: BoxDecoration(
                     color: Theme.of(context).accentColor,
@@ -129,10 +129,10 @@ class _CartPageState extends State<CartPage> {
                   child: Row(
                     children: <Widget>[
                       Flexible(
-                        flex: 3,
+                        flex: 4,
                         child: Container(
-                          height: 72,
-                          width: 72,
+                          height: 82,
+                          width: 82,
                           decoration:
                               BoxDecoration(borderRadius: BorderRadius.circular(8), color: Colors.transparent, image: DecorationImage(fit: BoxFit.contain, image: AssetImage('assets/images/a.png'))),
                         ),
@@ -146,7 +146,7 @@ class _CartPageState extends State<CartPage> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
-                              Text('Burger Mac Special', style: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.w500, color: Colors.black)),
+                              Text('Burger Mac ', style: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.w500, color: Colors.black)),
                               SizedBox(height: 3),
                               Text('\$ 20.2', style: GoogleFonts.poppins(fontSize: 14, fontWeight: FontWeight.w400, color: Colors.black.withOpacity(0.75))),
                               SizedBox(height: 3),
@@ -252,8 +252,9 @@ class _CartPageState extends State<CartPage> {
                   ElevatedButton(
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
-                        padding: EdgeInsets.symmetric(vertical: 18, horizontal: 95), primary: Theme.of(context).primaryColor, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(100))),
+                        padding: EdgeInsets.symmetric(vertical: 18, horizontal: 105), primary: Theme.of(context).primaryColor, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(100))),
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         SvgPicture.asset(
@@ -261,9 +262,6 @@ class _CartPageState extends State<CartPage> {
                           color: Colors.white,
                           height: 24,
                           width: 24,
-                        ),
-                        SizedBox(
-                          width: 8,
                         ),
                         Text('Checkout', style: GoogleFonts.poppins(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w500))
                       ],

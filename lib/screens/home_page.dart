@@ -106,7 +106,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
           // TabBarView for Custom Menu Tab Bar
           Container(
-            height: 344.0,
+            height: 354.0,
             child: TabBarView(controller: _tabController, children: [
               Column(
                 children: [
@@ -176,6 +176,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               children: List.generate(
                 recomendationItem.length,
                 (index) => Container(
+                  margin: EdgeInsets.only(bottom: 12),
                   width: double.infinity,
                   height: 92,
                   padding: EdgeInsets.symmetric(horizontal: 18.0),

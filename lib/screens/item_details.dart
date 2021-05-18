@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:food_app_ui/models/popular_food.dart';
-import 'package:food_app_ui/screens/cart_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ItemDetails extends StatefulWidget {
