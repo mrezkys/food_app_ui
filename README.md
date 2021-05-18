@@ -1,8 +1,8 @@
-#food_app_ui
+# food_app_ui
 
 A new Flutter project.
 
-##Getting Started
+## Getting Started
 
 This project is a starting point for a Flutter application.
 
@@ -15,4 +15,7 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # food_app_ui
+
+- [Code By Muhammad Rezky Sulihin (mrezkys) ](https://facebook.com/mrezkys12)
+- [Design By Rizki Indra](https://dribbble.com/shots/15638238-Food-Restaurant-Mobile-Apps)
 
