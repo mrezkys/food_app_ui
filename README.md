@@ -19,3 +19,8 @@ samples, guidance on mobile development, and a full API reference.
 - [Code By Muhammad Rezky Sulihin (mrezkys) ](https://facebook.com/mrezkys12)
 - [Design By Rizki Indra](https://dribbble.com/shots/15638238-Food-Restaurant-Mobile-Apps)
 
+<div>
+<img src="https://github.com/mrezkys/food_app_ui/blob/main/ss/Screenshot_1621336603.png" width="200" height="auto" >
+<img src="https://github.com/mrezkys/food_app_ui/blob/main/ss/Screenshot_1621336615.png" width="200" height="auto">
+<img src="https://github.com/mrezkys/food_app_ui/blob/main/ss/Screenshot_1621336621.png" width="200" height="auto">
+</div>
